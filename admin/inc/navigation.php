@@ -4,7 +4,7 @@
         <!-- Brand Logo -->
         <a href="<?php echo base_url ?>admin" class="brand-link bg-primary text-sm">
         <img src="<?php echo validate_image($_settings->info('logo'))?>" alt="Store Logo" class="brand-image img-circle elevation-3 bg-black" style="width: 1.8rem;height: 1.8rem;max-height: unset">
-        <span class="brand-text font-weight-light"><?php echo $_settings->info('short_name') ?></span>
+        <span class="brand-text font-weight-light"></span>
         </a>
         <!-- Sidebar -->
         <div class="sidebar os-host os-theme-light os-host-overflow os-host-overflow-y os-host-resize-disabled os-host-transition os-host-scrollbar-horizontal-hidden">
